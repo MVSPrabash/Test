@@ -5,7 +5,7 @@
 This website contains secrets for Teleportation
 
 
-# Test for test
+# **Test for test**
 
 # Fusion
 
@@ -31,16 +31,20 @@ As this application is just for a demo purpose in hackathon we didn't intend tak
 ## How to deploy on local server (127.0.0.1:5000)
 
 1. Clone the project
-    <br>``` git clone https://github.com/mvsprabash/fusion.git ```
+	```
+	git clone https://github.com/mvsprabash/fusion.git
+	```
 
 2. Activate the envirnoment
-    <br>```cd Fusion ```<br>
+    ```
+	cd Fusion
+	```
 
     - Linux:<br>
         > venv config already exists in the source directory. Just activate and go directly to step 3 Creating Gemini API key<br>
         
-        ``` 
-		source Fusion_env/bin/activate 
+        ```
+		source Fusion_env/bin/activate
 		```
     - Windows:<br>
         ```
@@ -51,16 +55,21 @@ As this application is just for a demo purpose in hackathon we didn't intend tak
 
 3. Install dependencies
     - Flask
-    <br>```pip install flask werkzeug```
+    ```
+	pip install flask werkzeug
+	```
     - Gemini API
-    <br>``` pip install google-generativeai ```
+    ```
+	pip install google-generativeai
+	```
     <br> Create your API following this video on *[YouTube](https://www.youtube.com/watch?v=pTcunloZ-_o)*.
     <br> Export the API KEY to the environment: `export GEMINI_API_KEY=<your-key>`
 
 4. Start the server
-    <br>`python app.py`<br>
+    ```
+	python app.py
+	```
     The Web application will be running at **[Localhost](http://127.0.0.1:5000/)** IP address
-
 
 
 
