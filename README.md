@@ -11,20 +11,25 @@ This website contains secrets for Teleportation
 
 ## Introduction
 
-***Concept:*** A Tool to analyze Financial Assets for an Individual or a Business and suggest best practices for financial wellbeing with Fusion Assistant (Built on Google's Gemini)
+***Concept:*** A Tool to analyze Financial Assets for an Individual or a Business and to suggest best practices for financial wellbeing with Fusion Assistant (Built on Google's Gemini)
 
 >[!WARNING]
->This web application contains multiple security vulnerabilities. Read security section.
+>This web application contains multiple security vulnerabilities. Read the security section.
 
 &nbsp;The is our first Hackathon project as Freshers. Made just to demonstrate the idea of financial analysis tool.
 
-&nbsp;
 
 
 ### Security
-As this application is just for a demo purpose in hackathon we didn't intend take any security measures
-- Prone to SQL injection.
-- No measures were taken to prevent database poisoning.
+As this application is just for a demo purpose in hackathon we intentionally didn't take any security measures. If you're using our code, keep these in mind.
+
+#### List of Vulnerabilities.
+- May be vulnerable to SQL injection.
+- Measures against preventing database poisoning.
+- CSRF protection
+- Sanitization for XSS (Cross Site Scripting)
+- Error handling
+- Asset details aren't encrypted
 
 ---
 
