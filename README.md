@@ -77,4 +77,4 @@ As this application is just for a demo purpose in hackathon we intentionally did
     The Web application will be running at **[Localhost](http://127.0.0.1:5000/)** IP address
 
 
-
+[![Test Video]](https://github.com/MVSPrabash/Fusion/blob/main/Fusion.webm)
